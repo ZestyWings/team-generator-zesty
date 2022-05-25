@@ -2,10 +2,6 @@ use employeesDb;
 
 INSERT INTO departments
 (department)
--- SALES
--- FINANCE
--- MARKETING
--- ENGINEERS
 VALUES
 ('Sales'),
 ('Finance'),
@@ -15,15 +11,6 @@ VALUES
 INSERT INTO roles 
 (title, salary, department_id)
 VALUES
--- Salesperson
--- sales lead
--- accountant 
--- account manager
--- marketing rep
--- marketing manager 
--- junior Engineer
--- senior engineer 
--- ceo 
 ('Salesperson', 80000, 1),
 ('Sales Lead', 95000, 1),
 ('Accountant', 70000, 2),
@@ -44,7 +31,7 @@ VALUES
 ('Martha', 'Stewart', 3, NULL),
 ('Snoop', 'Dogg', 3, 1),
 ('Tim', 'Cook', 4, NULL),
-('Steve', 'Jobs', 4, 1);
+('Steve', 'Jobs', 5, NULL);
 
  
 
